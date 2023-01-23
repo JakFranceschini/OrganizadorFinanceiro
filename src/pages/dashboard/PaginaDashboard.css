@@ -1,0 +1,10 @@
+.paginaDashboard {
+    height: 100vh;
+    display: flex;
+    background: #101010;
+}
+
+.containerPrincipal {
+    background: rgb(83, 66, 66);
+    width: 90%;
+}
