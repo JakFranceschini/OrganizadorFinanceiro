@@ -3,4 +3,146 @@
     background: #151515;
     border-radius: 15px;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerCards {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 420px;
+    height: 220px;
+    background: #202020;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    color: #f5f5f5;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#labelTotalMes {
+    color: #1FD146;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#labelReceitaMes {
+    color: #1FD146;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#labelDespesaMes {
+    color: #D1341F;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#botaoAddReceita {
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background: #303030;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#botaoAddReceita:hover {
+    background: #404040;
+}
+
+#botaoAddReceita:active {
+    background: #303030;
+}
+
+#botaoAddReceita img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+#botaoAddDespesa {
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background: #303030;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#botaoAddDespesa:hover {
+    background: #404040;
+}
+
+#botaoAddDespesa:active {
+    background: #303030;
+}
+
+#botaoAddDespesa img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.containerTotal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #202020;
+    margin-top: 30px;
+    width: 85%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.containerTotal label {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    letter-spacing: 1.5px;
+}
+
+#labelTotalAcumulado {
+    font-size: 3.5rem;
+    background-image: linear-gradient(to bottom left, #1FD146, #B6FAC5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 10px;
 }
