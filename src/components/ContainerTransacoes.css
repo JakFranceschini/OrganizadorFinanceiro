@@ -1,6 +1,94 @@
-.containerTransacoes {
-    height: 310px;
+.containerTransacoesRecentes {
+    height: 460px;
     background: #151515;
     border-radius: 15px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerTituloVerMais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.containerTituloVerMais h1 {
+    color: #f5f5f5;
+    margin-left: 120px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.containerTituloVerMais a {
+    text-decoration: none;
+    color: #f5f5f5;
+    margin-right: 120px;
+}
+
+.containerTransacoesDespesa {
+    height: 70px;
+    background: #202020;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 25px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#labelNomeDespesa {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    width: 180px;
+}
+
+#labelValorDespesa {
+    color: #D1341F;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#labelDataDespesa {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-right: 30px;
+}
+
+.containerTransacoesReceita {
+    height: 70px;
+    background: #202020;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 25px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#labelNomeReceita {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    width: 180px;
+}
+
+#labelValorReceita {
+    color: #1FD146;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#labelDataReceita {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-right: 30px;
 }

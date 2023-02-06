@@ -1,9 +1,8 @@
 import React from "react";
 import "./SideBar.css";
 import IconeSideBarDashboard from "../img/iconeSideBarDashboard.png";
-import IconeSideBarReceitas from "../img/iconeSideBarReceitas.png";
-import IconeSideBarDespesas from "../img/iconeSideBarDespesas.png";
 import IconeSideBarTransacoes from "../img/iconeSideBarTransacoes.png";
+import IconeSideBarDivisao from "../img/iconeSideBarDivisao.png";
 
 function SideBar() {
     return(
@@ -12,9 +11,8 @@ function SideBar() {
 
             <ul>
                 <li><a href="#"><img src={IconeSideBarDashboard}/>Dashboard</a></li>
-                <li><a href="#"><img src={IconeSideBarReceitas}/>Receitas</a></li>
-                <li><a href="#"><img src={IconeSideBarDespesas}/>Despesas</a></li>
                 <li><a href="#"><img src={IconeSideBarTransacoes}/>Transações</a></li>
+                <li><a href="#"><img src={IconeSideBarDivisao}/>Dividir</a></li>
             </ul>
 
             <div className="container">
